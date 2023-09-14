@@ -1,0 +1,31 @@
+:root {
+  --h1-color: #996dff;
+  --holder-color: #7c7c8a;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > h1 {
+  color: var(--h1-color);
+  margin-top: -5px;
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 6.4rem;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 51.2rem;
+}
+
+.placeholder {
+  color: var(--holder-color);
+  user-select: none;
+}

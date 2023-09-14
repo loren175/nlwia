@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #202024;
+  --secondary-color: #8257e5;
+  --tt-color: white;
+  --hover-color: #633bbc;
+}
+
+#form {
+  margin-top: 6.4rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+#form > input {
+  height: 4.8rem;
+  width: 45rem;
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 0 12px;
+  font-size: 1.6rem;
+}
+
+#form > input:focus {
+  outline: 2px solid var(--secondary-color);
+}
+
+#form > input:valid {
+  background-color: var(--primary-color);
+}
+
+#form > button {
+  height: 4.8rem;
+  width: 4.8rem;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#form > button i {
+  font-size: 2.4rem;
+  color: var(--tt-color);
+}
+
+#form > button:hover {
+  background-color: var(--hover-color);
+}
